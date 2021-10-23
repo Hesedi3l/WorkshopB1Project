@@ -1,0 +1,123 @@
+.gamepage{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+.topReturn{
+    top: 30px;
+    left: 30px;
+    position: absolute;
+    z-index: 80;
+}
+.topReturn a p{
+    color: white;
+    font-size: 16px;
+    margin-right: 15px;
+    padding: 10px 15px;
+    background: royalblue;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+.gamepage h2{
+    color: rgba(255,255,255,0.9);
+    font-size: 60px;
+    margin: 110px 0;
+    position: relative;
+    transition: 0.4s ease;
+    cursor: default;
+}
+.gamepage h2::after{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    transition: all 0.4s ease;
+    border-bottom: 2px solid royalblue;
+    border-radius: 2px;
+}
+.gamepage h2:hover::after{
+    width: 250px;
+}
+.gamepage .textArea{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 600px;
+    margin-right: 35px;
+}
+.gamepage .textArea p{
+    color: white;
+    text-align: justify;
+}
+.gamepage .textArea .touches{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gamepage .textArea .touches .right, .gamepage .textArea .touches .left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.gamepage .textArea .touches h4{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.gamepage .textArea .touches .left{
+    margin-right: 25px;
+}
+.gamepage .textArea .touches p{
+    color: rgba(255,255,255,0.7);
+    display: inline-block;
+    margin: 10px 0;
+}
+.gamepage .textArea .touches p span{
+    border: 2px solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.gamepage .textArea .touches p span.yellow{
+    border-color: orange;
+}
+.gamepage .textArea .touches p span.red{
+    border-color: red;
+}
+.gamepage .textArea .touches p span.blue{
+    border-color: royalblue;
+}
+.gamepage iframe{
+    width: 1000px;
+    height: 700px;
+    border-radius: 30px;
+    background: #1d2026;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

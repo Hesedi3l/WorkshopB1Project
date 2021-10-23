@@ -1,0 +1,57 @@
+.team{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 100px;
+}
+.team h2{
+    color: rgba(255,255,255,0.9);
+    font-size: 60px;
+    margin: 110px 0;
+    position: relative;
+    transition: 0.4s ease;
+    cursor: default;
+}
+.team h2::after{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    transition: all 0.4s ease;
+    border-bottom: 2px solid #4169e1;
+    border-radius: 2px;
+}
+.team h2:hover::after{
+    width: 250px;
+}
+.container_team{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

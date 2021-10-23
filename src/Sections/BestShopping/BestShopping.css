@@ -1,0 +1,59 @@
+.bestshopping{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.bestshopping .imageBox_shop{
+    width: 400px;
+    height: 400px;
+    margin-right: 35px;
+    border-radius: 20px;
+}
+.bestshopping .imageBox_shop img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.textBox{
+    color: white;
+}
+.textBox h3{
+    font-size: 35px;
+}
+.textBox h4{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.6);
+}
+.textBox p{
+    margin: 40px 0;
+    color: rgba(255,255,255,0.65);
+}
+.textBox .price{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.textBox .price p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 25px;
+}
+.textBox .price .button{
+    display: inline-block;
+    padding: 10px 15px;
+    background: royalblue;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+
+
+
+

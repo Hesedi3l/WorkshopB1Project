@@ -1,0 +1,169 @@
+.game{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.game h2{
+    color: rgba(255,255,255,0.9);
+    font-size: 60px;
+    margin: 110px 0;
+    position: relative;
+    transition: 0.4s ease;
+    cursor: default;
+}
+.game h2::after{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    transition: all 0.4s ease;
+    border-bottom: 2px solid royalblue;
+    border-radius: 2px;
+}
+.game h2:hover::after{
+    width: 250px;
+}
+.game_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+.game_container .banner_store{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.game_container .banner_store .banner_store_image{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.game_container .banner_store .banner_store_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.game_container .banner_store h4{
+    color: rgba(255,255,255,0.8);
+    font-size: 30px;
+}
+.game_container .banner_store h5{
+    color: rgba(255,255,255,0.6);
+    font-size: 16px;
+    font-weight: 300;
+}
+.game_container .banner_store .installation{
+    display: flex;
+    justify-content: flex-start;
+    margin: 70px 0;
+    align-items: center;
+}
+.game_container .banner_store .installation a{
+    color: #ffffff;
+    font-size: 16px;
+    margin-right: 15px;
+    padding: 10px 15px;
+    background: royalblue;
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+.game_container .banner_store .installation a p{
+    color: white;
+    font-size: 16px;
+}
+.game_container .banner_store .installation a:hover{
+    transform: scale(1.06);
+}
+.game_container .banner_store .installation p{
+    color: rgba(255,255,255,0.4);
+    font-size: 15px;
+}
+.game_container .banner_store .stats{
+    display: flex;
+    justify-content: flex-start;
+}
+.game_container .banner_store .stats .note, .game_container .banner_store .stats .classement,  .banner_store .stats .age {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-right: 25px;
+    width: 200px;
+}
+.game_container .banner_store .stats p.up{
+    margin-right: 5px;
+    font-size: 22px;
+    color: rgba(255,255,255,0.8);
+}
+.game_container .banner_store .stats p{
+    font-size: 16px;
+    color: rgba(255,255,255,0.4);
+}
+.game_container .banner_store .stats p.star{
+    color: rgba(255,255,255,1);
+}
+.game_container .game_store_content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 900px;
+}
+.game_container .game_store_content h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+.game_container .game_store_content h3 span{
+    color: royalblue;
+}
+.game_container .game_store_content p{
+    color: rgba(255,255,255,0.7);
+    font-size: 18px;
+}
+.game_container .game_store_content .description{
+    margin-bottom: 40px;
+}
+.game_container .game_store_content .galerie_container{
+    display: flex;
+    justify-content: flex-start;
+}
+.game_container .game_store_content .galerie_container .imageGalerie{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-right: 45px;
+}
+.game_container .game_store_content .galerie_container .imageGalerie img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,171 @@
+.playButton{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background: royalblue;
+    color: #ffffff;
+    font-size: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.4s ease;
+    z-index: 999;
+}
+.playButton::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: royalblue 2px solid;
+    opacity: 0.6;
+    animation: pulse2 2s ease infinite;
+}
+.playButton::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: royalblue 2px solid;
+    opacity: 0.4;
+    animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse {
+    0%{
+        opacity: 0.4;
+    }
+   10%{
+       opacity: 0.3;
+   }
+    20%{
+        opacity: 0.2;
+    }
+    30%{
+        opacity: 0.1;
+    }
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.1;
+    }
+    60%{
+        opacity: 0.2;
+    }
+    70%{
+        opacity: 0.3;
+    }
+    80%{
+        opacity: 0.4;
+    }
+    100%{
+        opacity: 0.4;
+    }
+}
+@keyframes pulse2 {
+    0%{
+        opacity: 0.4;
+    }
+    10%{
+        opacity: 0.3;
+    }
+    20%{
+        opacity: 0.2;
+    }
+    30%{
+        opacity: 0.1;
+    }
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.1;
+    }
+    60%{
+        opacity: 0.2;
+    }
+    70%{
+        opacity: 0.3;
+    }
+    80%{
+        opacity: 0.4;
+    }
+    100%{
+        opacity: 0.4;
+    }
+}
+
+
+
+.playButton:hover{
+    transform: scale(1.06);
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    padding: 0 250px;
+}
+.banner .text_box{
+    width: 600px;
+}
+.banner .text_box h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.banner .text_box h1 span{
+    color: royalblue;
+}
+.banner .text_box p{
+    color: rgba(255,255,255,0.65);
+    font-size: 20px;
+    margin: 40px 0 60px;
+}
+.banner .text_box .buttons{
+    display: flex;
+    justify-content: flex-start;
+}
+.banner .text_box .buttons .btn{
+    font-size: 18px;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    transition: all 0.4s ease;
+}
+.banner .text_box .buttons .btn.bg{
+    background: royalblue;
+    margin-right: 50px;
+    padding: 10px 0;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.banner .text_box .buttons .btn.bd{
+    border: 2px solid royalblue;
+    padding: 10px 0;
+    color: royalblue;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.banner .text_box .buttons .btn:hover{
+    transform: scale(1.08);
+}
+.banner .image_box{
+    width: 650px;
+}
+.banner .image_box img{
+    width: 100%;
+}
+
+
+
+
